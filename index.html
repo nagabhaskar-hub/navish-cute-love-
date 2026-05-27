@@ -1,3 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krish ❤️ Navya</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#1a001a,#660033,#99004d);
+color:white;
+overflow-x:hidden;
+}
+
+/* FLOATING HEARTS */
+
+.heart{
+position:fixed;
+bottom:-20px;
+font-size:20px;
+color:red;
+animation:float 5s linear infinite;
+z-index:1;
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0);
+opacity:1;
+}
+
+100%{
+transform:translateY(-100vh);
+opacity:0;
+}
+
+}
+
+/* MAIN */
+
+.container{
+padding:30px;
+text-align:center;
+}
+
+/* TITLE */
+
+.title{
+font-size:70px;
+margin-top:20px;
+color:#ff99cc;
+text-shadow:0 0 25px white;
+}
+
+/* PHOTOS */
+
+.photos{
+display:flex;
+justify-content:center;
+gap:50px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.photos img{
+width:230px;
+height:230px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid white;
+box-shadow:0 0 30px pink;
+}
+
+.photos h2{
+margin-top:15px;
+font-size:35px;
+color:#ffd6eb;
+}
+
+/* LETTER */
+
+.letter{
+max-width:900px;
+margin:50px auto;
+padding:40px;
+background:rgba(255,255,255,0.08);
+border-radius:30px;
+font-size:27px;
+line-height:2;
+box-shadow:0 0 30px rgba(255,255,255,0.2);
+}
+
+/* BUTTONS */
+
+.buttons{
+margin-top:40px;
+}
+
+button{
+padding:16px 45px;
+font-size:30px;
+border:none;
+border-radius:50px;
+cursor:pointer;
+margin:20px;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+.yes{
+background:#ff1493;
+color:white;
+box-shadow:0 0 20px pink;
+}
+
+.no{
+background:black;
+color:white;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.title{
+font-size:45px;
+}
+
+.photos img{
+width:170px;
+height:170px;
+}
+
+.letter{
+font-size:20px;
+padding:25px;
+}
+
+button{
+font-size:22px;
+padding:12px 28px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1 class="title">Navya ❤️</h1>
+
+<div class="photos">
+
+<div>
+<img src="krish.jpg.jpeg">
+<h2>Krish 💖</h2>
+</div>
+
+<div>
+<img src="Navya.jpg">
+<h2>Navya 💖</h2>
+</div>
+
+</div>
+
+<div class="letter">
+
+నా ప్రియమైన Navya ❤️<br><br>
+
+నిన్ను చూసిన రోజు నుంచి  
+నా ప్రపంచం మొత్తం మారిపోయింది ✨<br><br>
+
+నీ smile చూస్తే  
+నా రోజు మొత్తం beautiful గా మారిపోతుంది 🌸<br><br>
+
+నీ మాటల్లో నాకు peace ఉంటుంది...  
+నీ presence లో నాకు happiness ఉంటుంది 💖<br><br>
+
+నిన్ను ప్రేమించడం  
+నేను తీసుకున్న decision కాదు...  
+నా heart స్వయంగా నిన్నే ప్రేమించింది ❤️<br><br>
+
+నువ్వు నా జీవితంలోకి వచ్చిన తర్వాత  
+ప్రతి రోజు special అయింది ✨<br><br>
+
+నిన్ను చూసినప్పుడు  
+time ఆగిపోవాలి అనిపిస్తుంది 💞<br><br>
+
+Will You Stay With Me Forever...? 💍❤️
+
+</div>
+
+<div class="buttons">
+
+<button class="yes" onclick="yesLove()">
+Yes ❤️
+</button>
+
+<button class="no" onclick="noLove()">
+No 💔
+</button>
+
+</div>
+
+</div>
+
 <script>
 
 /* YES BUTTON */
@@ -12,15 +234,16 @@ yesWindow.document.write(`
 
 <head>
 
-<title>Accepted ❤️</title>
+<title>Forever Love ❤️</title>
 
 <style>
 
 body{
-background:linear-gradient(135deg,#1a001a,#660033,#99004d);
-color:white;
-font-family:'Segoe UI',sans-serif;
+margin:0;
 padding:40px;
+background:linear-gradient(135deg,#1a001a,#660033,#99004d);
+font-family:'Segoe UI',sans-serif;
+color:white;
 line-height:2;
 font-size:30px;
 }
@@ -51,25 +274,29 @@ color:#ff99cc;
 <h1>Navya ❤️</h1>
 
 నా జీవితంలోకి వచ్చిన  
-అందమైన feeling నువ్వే 💖<br><br>
+అత్యంత అందమైన feeling నువ్వే ❤️<br><br>
 
 నిన్ను చూసిన ప్రతిసారి  
-నా heart కొత్తగా beat అవుతుంది ❤️<br><br>
+నా heart కొత్తగా beat అవుతుంది 💖<br><br>
 
 నీ smile చూస్తే  
-నా బాధ అంతా మాయమవుతుంది ✨<br><br>
+నా ప్రపంచం మొత్తం beautiful గా మారిపోతుంది ✨<br><br>
 
 నువ్వు నా life లోకి వచ్చిన తర్వాత  
-నా ప్రపంచం మొత్తం beautiful అయింది 💞<br><br>
+ప్రతి రోజు special అయింది 🌸<br><br>
 
-ప్రతి ఉదయం నిన్నే చూడాలి...  
-ప్రతి happiness ని నీతో share చేసుకోవాలి ❤️<br><br>
+నాకు life లో పెద్ద dreams ఏమీ లేవు...  
+కానీ నీతో కలిసి life మొత్తం ఉండాలని ఒక్క కోరిక ఉంది 💍❤️<br><br>
 
-నీ చేయి నా forever promise 🤝💖<br><br>
+నీ బాధలో నీ shadowలా...  
+నీ happiness లో నీ smileలా ఉండాలని ఉంది 💞<br><br>
 
-Thank You For Accepting My Love 🥹❤️<br><br>
+ప్రతి జన్మలో కూడా  
+నా heart నిన్నే ప్రేమిస్తుంది Navya ❤️<br><br>
 
-I Love You Forever Navya 💞
+Thank You So Much For Accepting My Love 🥹💖<br><br>
+
+I Love You Forever Navya ❤️
 
 </div>
 
@@ -81,7 +308,7 @@ I Love You Forever Navya 💞
 
 }
 
-/* NO BUTTON CLICK */
+/* NO BUTTON */
 
 function noLove(){
 
@@ -98,10 +325,11 @@ noWindow.document.write(`
 <style>
 
 body{
-background:linear-gradient(135deg,#000000,#330000,#660000);
-color:white;
-font-family:'Segoe UI',sans-serif;
+margin:0;
 padding:40px;
+background:linear-gradient(135deg,#000000,#330000,#660000);
+font-family:'Segoe UI',sans-serif;
+color:white;
 line-height:2;
 font-size:30px;
 }
@@ -132,22 +360,25 @@ color:red;
 <h1>Navya 💔</h1>
 
 నువ్వు No చెప్పినా కూడా  
-నా ప్రేమ మాత్రం మారదు ❤️<br><br>
+నా ప్రేమ మాత్రం ఎప్పటికీ మారదు ❤️<br><br>
 
 ఎందుకంటే నిన్ను ప్రేమించడం  
 నా అలవాటు కాదు...  
 నా ప్రాణం 💔<br><br>
 
+నిన్ను చూసిన రోజు నుంచి  
+నా heart నిన్నే ప్రేమిస్తోంది 💖<br><br>
+
 నువ్వు నా life లో లేకపోయినా  
-నా prayers లో ఎప్పుడూ ఉంటావు ✨<br><br>
+నా prayers లో మాత్రం ఎప్పుడూ ఉంటావు ✨<br><br>
 
 నీ happiness కోసం  
-దూరం నుంచైనా pray చేస్తాను 💖<br><br>
+దూరం నుంచైనా pray చేస్తాను ❤️<br><br>
 
 Maybe నేను నీ destiny కాకపోవచ్చు...  
-కానీ నువ్వు మాత్రం నా forever feeling ❤️<br><br>
+కానీ నువ్వు మాత్రం నా forever feeling 💔<br><br>
 
-I Will Always Love You Navya 💔
+I Will Always Love You Navya ❤️
 
 </div>
 
@@ -171,17 +402,17 @@ heart.innerHTML="❤️";
 
 heart.style.left=Math.random()*100+"vw";
 
-heart.style.animationDuration=
-Math.random()*3+3+"s";
-
 document.body.appendChild(heart);
 
 setTimeout(()=>{
 heart.remove();
-},6000);
+},5000);
 
 }
 
 setInterval(createHeart,300);
 
 </script>
+
+</body>
+</html>
