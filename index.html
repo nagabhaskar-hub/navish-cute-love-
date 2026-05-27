@@ -1,29 +1,28 @@
 <script>
 
-/* YES BUTTON - OPEN NEW LOVE WINDOW */
+/* YES BUTTON */
 
 function yesLove(){
 
-const newWindow = window.open("", "_blank");
+const yesWindow = window.open("", "_blank");
 
-newWindow.document.write(`
+yesWindow.document.write(`
 
 <html>
 
 <head>
 
-<title>Navya Accepted ❤️</title>
+<title>Accepted ❤️</title>
 
 <style>
 
 body{
-background:black;
+background:linear-gradient(135deg,#1a001a,#660033,#99004d);
 color:white;
 font-family:'Segoe UI',sans-serif;
 padding:40px;
 line-height:2;
 font-size:30px;
-background:linear-gradient(135deg,#1a001a,#660033,#99004d);
 }
 
 .container{
@@ -60,22 +59,15 @@ color:#ff99cc;
 నీ smile చూస్తే  
 నా బాధ అంతా మాయమవుతుంది ✨<br><br>
 
-నీతో మాట్లాడితే  
-ప్రపంచం మొత్తం silent అయినట్టు ఉంటుంది...  
-ఎందుకంటే నా ప్రపంచం నువ్వే Navya ❤️<br><br>
+నువ్వు నా life లోకి వచ్చిన తర్వాత  
+నా ప్రపంచం మొత్తం beautiful అయింది 💞<br><br>
 
-నేను perfect person కాకపోవచ్చు...  
-కానీ నిన్ను life long happy గా చూసుకోవడానికి మాత్రం ప్రయత్నిస్తాను 💍<br><br>
-
-నీ కన్నీళ్లు నా బాధ...  
-నీ నవ్వు నా happiness ❤️<br><br>
+ప్రతి ఉదయం నిన్నే చూడాలి...  
+ప్రతి happiness ని నీతో share చేసుకోవాలి ❤️<br><br>
 
 నీ చేయి నా forever promise 🤝💖<br><br>
 
-ప్రతి జన్మలో కూడా  
-నా heart నిన్నే వెతుకుతుంది ❤️<br><br>
-
-Thank You So Much For Accepting My Love 🥹❤️<br><br>
+Thank You For Accepting My Love 🥹❤️<br><br>
 
 I Love You Forever Navya 💞
 
@@ -89,13 +81,13 @@ I Love You Forever Navya 💞
 
 }
 
-/* NO BUTTON - OPEN SAD WINDOW */
+/* NO BUTTON CLICK */
 
 function noLove(){
 
-const sadWindow = window.open("", "_blank");
+const noWindow = window.open("", "_blank");
 
-sadWindow.document.write(`
+noWindow.document.write(`
 
 <html>
 
@@ -106,13 +98,12 @@ sadWindow.document.write(`
 <style>
 
 body{
-background:black;
+background:linear-gradient(135deg,#000000,#330000,#660000);
 color:white;
 font-family:'Segoe UI',sans-serif;
 padding:40px;
 line-height:2;
 font-size:30px;
-background:linear-gradient(135deg,#000000,#330000,#660000);
 }
 
 .container{
@@ -140,18 +131,15 @@ color:red;
 
 <h1>Navya 💔</h1>
 
-నువ్వు No చెప్పినా...  
+నువ్వు No చెప్పినా కూడా  
 నా ప్రేమ మాత్రం మారదు ❤️<br><br>
 
 ఎందుకంటే నిన్ను ప్రేమించడం  
 నా అలవాటు కాదు...  
 నా ప్రాణం 💔<br><br>
 
-నిన్ను చూసిన ప్రతిసారి  
-నా heart ఇప్పటికీ నిన్నే ప్రేమిస్తుంది ❤️<br><br>
-
-నువ్వు నా life లో లేకపోయినా...  
-నా prayers లో మాత్రం ఎప్పుడూ ఉంటావు ✨<br><br>
+నువ్వు నా life లో లేకపోయినా  
+నా prayers లో ఎప్పుడూ ఉంటావు ✨<br><br>
 
 నీ happiness కోసం  
 దూరం నుంచైనా pray చేస్తాను 💖<br><br>
@@ -170,26 +158,6 @@ I Will Always Love You Navya 💔
 `);
 
 }
-
-/* NO BUTTON MOVING */
-
-const noBtn=document.getElementById("noBtn");
-
-noBtn.addEventListener("mouseover",()=>{
-
-const x=Math.random()*(window.innerWidth-150);
-
-const y=Math.random()*(window.innerHeight-150);
-
-noBtn.style.left=x+"px";
-
-noBtn.style.top=y+"px";
-
-});
-
-/* CLICK NO BUTTON */
-
-noBtn.addEventListener("click",noLove);
 
 /* FLOATING HEARTS */
 
